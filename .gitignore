@@ -1,0 +1,19 @@
+# Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+venv/
+ENV/
+
+# Frontend
+node_modules/
+.next/
+out/
+build/
+
+# Misc
+*.log
+.DS_Store
