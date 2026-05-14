@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from scraper import scan_leads
-from ai import score_lead
+from .scraper import scan_leads
+from .ai import score_lead
 
 app = FastAPI()
 
